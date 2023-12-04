@@ -1,0 +1,18 @@
+{
+    "env": {
+        "browser": true,
+        "es2021": true,
+        "jest": true // чтоб не ругался на команды jest в тестах
+    },
+    "extends": "airbnb-base",
+    "parserOptions": {
+        "ecmaVersion": "latest",
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-console": "off", // чтоб не ругался на console.log
+        "no-unused-vars": "off", // чтоб не ругался на не используеммые переменные
+        "no-plusplus": "off" // чтоб не ругался на i++
+    },
+    "ignorePatterns": ["dist/"]
+}
